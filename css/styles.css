@@ -4238,3 +4238,39 @@ img.u-pull-left {
         right : 6vw;
     }
 }
+.social-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.btn-social {
+  padding: 10px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.btn-social.instagram {
+  background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4);
+  color: white;
+}
+
+.btn-social.github {
+  background: #24292f;
+  color: white;
+}
+
+.btn-social.linkedin {
+  background: #0077b5;
+  color: white;
+}
+
+.btn-social:hover {
+  transform: scale(1.05);
+}
